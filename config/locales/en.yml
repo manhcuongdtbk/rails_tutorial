@@ -31,3 +31,30 @@
 
 en:
   hello: "Hello world"
+  static_pages:
+    home:
+      title: "Home"
+      h1: "Sample App"
+      p1-1: "This is the home page for the"
+      a: "Ruby on Rails Tutorial"
+      p1-2: "sample application."
+    help:
+      title: "Help"
+      h1: "Help"
+      p1-1: "Get help on the Ruby on Rails Tutorial at the"
+      a1-1: "Rails Tutorial help section"
+      p1-2: "To get help on this sample app, see the"
+      a1-2-1: "Ruby on Rails Tutorial"
+      a1-2-2: "book"
+    about:
+      title: "About"
+      h1: "About"
+      p1-1: "The"
+      a1-1: "Ruby on Rails Tutorial"
+      p1-2: "is a"
+      a1-2: "book"
+      p1-3: "and"
+      a1-3: "screencast series"
+      p1-4: "to teach web development with"
+      a1-4: "Ruby on Rails"
+      p1-5: "This is the sample application for the tutorial."

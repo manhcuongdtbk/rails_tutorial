@@ -1,6 +1,13 @@
-<h1><%= t ".h1" %></h1>
-<p>
-  <%= t ".p1" %>
-  <a href="http://www.railstutorial.org/"><%= t ".a1" %></a>
-  <%= t ".p2" %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".welcome" %></h1>
+
+  <h2>
+    <%= t ".headerp1" %>
+    <a href="http://www.railstutorial.org/"><%= t ".a1" %></a>
+    <%= t ".headerp2" %>
+  </h2>
+
+  <%= link_to t(".link1"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: t(".imgalt")), "http://rubyonrails.org/" %>

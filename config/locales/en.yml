@@ -2,14 +2,20 @@ en:
   hello: "Hello world"
   success: "Welcome to the Sample App!"
   error: "User not found"
+  danger: "Invalid email/password combination"
   layouts:
     application:
       basetitle: "Ruby on Rails Tutorial Sample App"
     header:
       link1: "sample app"
-      link2: "Home"
-      link3: "Help"
-      link4: "Log in"
+      home: "Home"
+      help: "Help"
+      account: "Account"
+      users: "Users"
+      srofile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      log_in: "Log in"
     footer:
       small1: "The"
       a1: "Ruby on Rails Tutorial"
@@ -61,3 +67,10 @@ en:
     error_messages:
       s1: "The form contains"
       error: "error"
+  sessions:
+    new:
+      title: "Log in"
+      h1: "Log in"
+      submit: "Log in"
+      new_user: New user?
+      signup: "Sign up now!"

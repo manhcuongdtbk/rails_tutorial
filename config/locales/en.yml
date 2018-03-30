@@ -71,6 +71,7 @@ en:
     new:
       title: "Log in"
       h1: "Log in"
+      remember_me: "Remember me on this computer"
       submit: "Log in"
       new_user: New user?
       signup: "Sign up now!"

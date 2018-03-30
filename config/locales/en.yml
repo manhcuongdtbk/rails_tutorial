@@ -2,6 +2,9 @@ en:
   hello: "Hello world"
   success: "Welcome to the Sample App!"
   error: "User not found"
+  updated: "Profile updated"
+  deleted: "User deleted"
+  login_warning: "Please log in."
   danger: "Invalid email/password combination"
   layouts:
     application:
@@ -60,9 +63,24 @@ en:
   users:
     new:
       title: "Sign up"
+      button_text: "Create my account"
       h1: "Sign up"
       password_confirmation: "Confirmation"
       submit: "Create my account"
+    edit:
+      title: "Edit user"
+      button_text: "Save changes"
+      h1: "Update your profile"
+      gravatar: "Gravatar"
+      g_link: "http://gravatar.com/emails"
+      target: "_blank"
+      a1: "Change"
+    index:
+      title: "All users"
+      h1: "All users"
+    user:
+      link1: "delete"
+      confirm: "You sure?"
   shared:
     error_messages:
       s1: "The form contains"

@@ -4,7 +4,6 @@ en:
   error: "User not found"
   updated: "Profile updated"
   deleted: "User deleted"
-  login_warning: "Please log in."
   success_activation: "Account activated!"
   danger_activation: "Invalid activation link"
   warning: "Account not activated. Check your email for the activation link."
@@ -12,9 +11,16 @@ en:
   account_activation: "Account activation"
   greeting: "Hi"
   welcome: "Welcome to the Sample App!
-  Click on the link below to activate your account:"
+    Click on the link below to activate your account:"
   sample_app: "Sample App"
   activate: "Activate"
+  password_resets_info: "Email sent with password reset instructions"
+  password_resets_danger: "Email address not found"
+  password_resets_success: "Password has been reset."
+  password_resets_expired: "Password reset has expired."
+  empty_password: "can't be empty"
+  update_password: "Update password"
+  password_reset: "Password reset"
   layouts:
     application:
       basetitle: "Ruby on Rails Tutorial Sample App"
@@ -84,6 +90,8 @@ en:
       g_link: "http://gravatar.com/emails"
       target: "_blank"
       a1: "Change"
+      login_warning: "Please log in."
+      confirmation: "Confirmation"
     index:
       title: "All users"
       h1: "All users"
@@ -98,7 +106,26 @@ en:
     new:
       title: "Log in"
       h1: "Log in"
+      forgot_password: "(forgot password)"
       remember_me: "Remember me on this computer"
       submit: "Log in"
       new_user: New user?
       signup: "Sign up now!"
+  password_resets:
+    new:
+      title: "Forgot password"
+      h1: "Forgot password"
+      submit: "Submit"
+    edit:
+      title: "Reset password"
+      h1: "Reset password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+  user_mailer:
+    password_reset:
+      password_reset: "Password reset"
+      click_to_reset: "To reset your password click the link below:"
+      reset_password: "Reset password"
+      line1: "This link will expire in two hours."
+      line2: "If you did not request your password to be reset,
+        please ignore this email and your password will stay as it is."

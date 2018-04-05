@@ -1,11 +1,20 @@
 en:
   hello: "Hello world"
-  success: "Welcome to the Sample App!"
+  info: "Please check your email to activate your account."
   error: "User not found"
   updated: "Profile updated"
   deleted: "User deleted"
   login_warning: "Please log in."
+  success_activation: "Account activated!"
+  danger_activation: "Invalid activation link"
+  warning: "Account not activated. Check your email for the activation link."
   danger: "Invalid email/password combination"
+  account_activation: "Account activation"
+  greeting: "Hi"
+  welcome: "Welcome to the Sample App!
+  Click on the link below to activate your account:"
+  sample_app: "Sample App"
+  activate: "Activate"
   layouts:
     application:
       basetitle: "Ruby on Rails Tutorial Sample App"

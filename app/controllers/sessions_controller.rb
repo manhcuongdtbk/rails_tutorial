@@ -5,10 +5,9 @@ class SessionsController < ApplicationController
     user = User.find_by email: params[:session][:email].downcase
 
     if user && user.authenticate(params[:session][:password])
-      login_success user
+      user.activated? ? login_success(user) : unactivated_user
     else
-      flash.now[:danger] = t "danger"
-      render :new
+      login_false
     end
   end
 
@@ -23,6 +22,16 @@ class SessionsController < ApplicationController
     log_in user
     params_session[:remember_me] == "1" ? remember(user) : forget(user)
     redirect_back_or user
+  end
+
+  def unactivated_user
+    flash[:warning] = t "warning"
+    redirect_to root_url
+  end
+
+  def login_false
+    flash.now[:danger] = t "danger"
+    render :new
   end
 
   def params_session

@@ -139,6 +139,8 @@ GEM
     faker (1.7.3)
       i18n (~> 0.5)
     ffi (1.9.23)
+    figaro (1.1.1)
+      thor (~> 0.14)
     formatador (0.2.5)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -357,6 +359,7 @@ DEPENDENCIES
   eslint-rails!
   factory_girl_rails
   faker (= 1.7.3)
+  figaro
   guard-rspec
   jbuilder (= 2.7.0)
   jquery-rails (= 4.3.1)

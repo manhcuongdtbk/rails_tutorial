@@ -21,6 +21,10 @@ en:
   empty_password: "can't be empty"
   update_password: "Update password"
   password_reset: "Password reset"
+  post_created: "Micropost created!"
+  post_deleted: "Micropost deleted"
+  picture_size_error: "should be less than 5MB"
+  over_file_size: "Maximum file size is 5MB. Please choose a smaller file."
   layouts:
     application:
       basetitle: "Ruby on Rails Tutorial Sample App"
@@ -44,6 +48,7 @@ en:
       a3: "News"
   static_pages:
     home:
+      micropost_feed: "Micropost Feed"
       welcome: "Welcome to the Sample App"
       headerp1: "This is the home page for the"
       headerp2: "sample application."
@@ -98,10 +103,18 @@ en:
     user:
       link1: "delete"
       confirm: "You sure?"
+    show:
+      microposts: "Microposts"
   shared:
     error_messages:
       s1: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
   sessions:
     new:
       title: "Log in"
@@ -129,3 +142,9 @@ en:
       line1: "This link will expire in two hours."
       line2: "If you did not request your password to be reset,
         please ignore this email and your password will stay as it is."
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "delete"
+      sure?: "You sure?"
